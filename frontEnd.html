@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Corso Jordan | Programmazione Web</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Favicon -->
+    <link rel="icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmf3wAwFOvI4ukn-LSV8vQZlF4DweX8dkVKQ&s" />
+
+    <!-- CSS personalizzato -->
+     <link rel="stylesheet" href="/FrontEnd.css">
+  </head>
+
+</head>
+
+<body id="body">
+
+
+  <div class="wrapper">
+    <div class="content">
+      <!-- Header -->
+      <div class="header">
+        <a href="/index.html">
+          <img class="logoJordan"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmf3wAwFOvI4ukn-LSV8vQZlF4DweX8dkVKQ&s"
+          alt="logoJordan" />
+        </a>
+        <!-- NavBar -->
+         <nav class="navbar">
+          <ul>
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="#">CONTATTI</a></li>
+            
+          </ul>
+         </nav>
+      </div>
+
+      <!-- Titolo -->
+      <div class="containerTitle">
+        <h1 class="title">Programmazione Web con linguaggio ABAP</h1>
+        <h2>Capitolo Front-End</h2>
+      </div>
+
+      <!-- Accordion -->
+
+      <div class="accordion" id="accordionGiorni">
+
+        <!-- Primo Giorno -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="false" aria-controls="collapseOne">
+              Primo Giorno
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionGiorni">
+            <div class="accordion-body">
+              <!-- PRIMO GIORNO -->
+              <div class="day-section">
+                <h3 class="countDays"><i class="fas fa-calendar-day"></i> Primo Giorno</h3>
+                <h4>H.T.M.L</h4>
+                <div class="containerParagraph">
+                  <p>Oggi 12 Maggio è il primo giorno di corso con GJordan e il nostro docente Simone ci accompagnerà
+                    nel
+                    percorso di formazione. Da programma abbiamo installato i seguenti tools che utilizzeremo per
+                    esercitarci:
+                  </p>
+                </div>
+                <div class="containerList">
+                  <ul>
+                    <li><i class="fas fa-code"></i> <strong>Visual Studio Code</strong> - editor di codice sorgente</li>
+                    <li><i class="fab fa-git-alt"></i> <strong>Git</strong> - sistema di controllo versione</li>
+                  </ul>
+                </div>
+                <div class="containerParagraph">
+                  <p>Catapultati nel mondo IT abbiamo iniziato a scrivere codice HTML, ovvero il linguaggio alla base di
+                    ogni
+                    sito web.</p>
+                  <div class="post">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+                      alt="Logo HTML" />
+                    <p><b>HTML (HyperText Markup Language)</b> è un linguaggio di markup che permette di strutturare il
+                      contenuto delle pagine web.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Secondo Giorno -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+
+              Secondo Giorno
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionGiorni">
+            <div class="accordion-body">
+              <!-- Secondo Giorno -->
+              <div class="day-section">
+                <h3 class="countDays"><i class="fas fa-calendar-day"></i> Secondo Giorno</h3>
+                <h4>C.S.S</h4>
+                <div class="containerParagraph">
+                  <p>Il primo giorno abbiamo dato una bella infarinatura di un sito web classico con elementi del D.O.M
+                    e
+                    pasticciato con qualche riga di codice con i tag HTML, inserendo immagini, liste e link. <br> Oggi
+                    13 Maggio
+                    al secondo giorno applichiamo lo stile alla nostra pagina HTML utilizzando il linguaggio CSS</p>
+                  <div class="post">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/544px-CSS3_logo_and_wordmark.svg.png?20160530175649"
+                      alt="Logo CSS" />
+                    <p><b>Cascading Style Sheets, meglio noto come CSS</b> è il linguaggio informatico che governa
+                      l'estetica
+                      delle pagine web e regola la formattazione stilistica dei siti.</p>
+                  </div>
+                </div>
+                <div class="containerParagraph">
+                  <p>Molto importante e quasi presente in ogni sito web che si rispetti è il FORM (newsletter, contatti,
+                    iscrizioni ecc..) <br> Il form è un elemento HTML che consente di raccogliere dati dagli utenti. Può
+                    contenere vari tipi di input come campi di testo, checkbox, radio button e altro ancora.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Terzo Giorno -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Terzo Giorno
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionGiorni">
+            <div class="accordion-body">
+              <!-- Terzo Giorno -->
+              <div class="day-section">
+                <h3 class="countDays"><i class="fas fa-calendar-day"></i> Terzo Giorno</h3>
+                <h4>JavaScript</h4>
+                <div class="containerParagraph">
+                  <p>Oggi 14 Maggio abbiamo iniziato a esplorare il linguaggio JavaScript, uno degli elementi
+                    fondamentali per
+                    lo sviluppo web interattivo. In questa giornata abbiamo visto le basi per dichiarare variabili e
+                    come
+                    utilizzare console.log per stampare messaggi.</p>
+                  <div class="post">
+                    <img
+                      src="data:image/png;base64,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"
+                      alt="Logo JavaScript" />
+                    <p><b>JavaScript</b> è un linguaggio di programmazione che permette di aggiungere interattività alle
+                      pagine
+                      web. Abbiamo visto le differenze tra <code>var</code>, <code>let</code>, e <code>const</code> per
+                      dichiarare variabili e come stampare messaggi nella console utilizzando
+                      <code>console.log()</code>.</p>
+                  </div>
+                </div>
+                <div class="containerParagraph">
+                  <p>Un esempio di codice per iniziare a lavorare con le variabili in JavaScript potrebbe essere il
+                    seguente:
+                  </p>
+                  <pre><code>let nome = "Alessio";
+let eta = 25;
+const professione = "Sviluppatore Web";
+
+console.log("Ciao, mi chiamo " + nome + ", ho " + eta + " anni e sono un " + professione);</code></pre>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quarto Giorno -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Quarto Giorno
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+            data-bs-parent="#accordionGiorni">
+            <div class="accordion-body">
+              <!-- Quarto giorno -->
+              <div class="day-section">
+                <h3 class="countDays"><i class="fas fa-calendar-day"></i> Quarto Giorno</h3>
+                <div class="containerParagraph">
+                  <h4>Registrare un evento</h4>
+                  <p> Oggi 15 Maggio abbiamo selezionato gli elementi del DOM in Javascript. <br>
+                    Gli elementi del DOM possono essere selezionati in vari modi :</p>
+
+                  <div class="containerParagraph">
+                    <pre><code>---Stampa elemento del Dom per id
+  let paragraph=document.getElementById("pr");
+  console.log(paragraph);
+
+---Stampa elementi del Dom per nome del tag
+  let par =document.getElementsByTagName("p");
+  console.log(par);
+
+
+---Stampa elementi del Dom per nome della classe
+  let blocchi=document.getElementsByClassName("day-section");
+console.log(blocchi);
+
+
+---Con un ciclo for modifico il colore di sfondo di tutti gli elementi con la classe "day-section"
+  for(let i=0;i (<) blocchi.length;i++){
+  blocchi[i].style.backgroundColor="bisque"
+}
+</code></pre>
+                  </div>
+                </div>
+                <div class="containerParagraph">
+                  <p>Selezionando gli elementi che hanno come nome della classe "day-section" possiamo modificare lo
+                    stile, in
+                    questo caso lo sfondo
+                    attraverso il ciclo for che ciclerà gli elementi fino a quando l'indice (i) sarà minore della
+                    lunghezza
+                    di tutti gli elementi </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Quinto Giorno -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              Quinto Giorno
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+            data-bs-parent="#accordionGiorni">
+            <div class="accordion-body">
+              <!-- CONTENUTO QUINTO GIORNO QUI -->
+              <div class="day-section">
+                <h3 class="countDays"><i class="fas fa-calendar-day"></i> Quinto Giorno</h3>
+                <h4>Regole CSS</h4>
+                <div class="containerParagraph">
+                  <p>Oggi 16 Maggio abbiamo approfondito regole di stile CSS con il selettore <b>:root</b> che
+                    rappresenta
+                    l'elemento radice di un documento HTML.Viene spesso usato per definire variabili CSS globali che poi
+                    possono
+                    essere riutilizzate
+                    in tutto il foglio di stile.</p>
+                  <pre><code>:root {
+  --main-color: #3498db;
+  --font-size: 16px;
+}</code></pre>
+                  <p>Create queste variabili possiamo riutilizzarle e applicarle ad altri elementi con la sintassi
+                    <b>var(--nomeVariabile);</b> tipo :
+                  <pre><code>body {
+  color: var(--main-color);
+  font-size: var(--font-size);
+}</code></pre>
+                  </p>
+                  <div class="containerParagraph">
+                    <br>
+                    <p>Importante e ormai fondamentale è il <b>Response Design.</b> Infatti prima dell'avvento dei nuovi
+                      dispositivi mobile come tablet e smartphone che hanno una dimensione dello schermo minore rispetto
+                      al pc,è stato necessario rendere versatile quindi il codice anche per questi dispositivi.
+                      Da sempre utilizzati quindi per le dimensioni di un'immagine o di un testo erano i Pixel,un'unità
+                      di misura fissa che quindi non riesce ad essere responsive. <br>
+                      <br> Con l'avvento dei nuovi dispositivi è stato necessario utilizzare unità di misura relative
+                      come i <b>rem</b> e i <b>em</b>.<br>
+                      <b>REM (Root Element)</b> è un'unità di misura relativa che si basa sulla dimensione del font
+                      radice (root font size) del documento. In altre parole, 1rem è uguale alla dimensione del font
+                      definita nell'elemento <code>:root</code> o nell'elemento <code>html</code>. Ad esempio, se la
+                      dimensione del font radice è 16px, 1rem sarà uguale a 16px.
+                    <pre><code>:root{
+  font-size: 16px;
+}
+
+p {
+  font-size: 1.5rem; 
+}
+<b>In questo esempio vediamo rem applicato all'elemento paragrafo, farà riferimento alla dimensione del font radice e NON al suo genitore diretto che potrebbe essere un div <br>
+La dimensione del font del paragrafo sarà quindi 1.5 volte la dimensione del font radice, quindi 1.5 * 16px = 24px.</b>
+</code></pre>
+                    <br><b>EM (Element)</b> è un'unità di misura relativa che si basa sulla dimensione del font
+                    dell'elemento genitore diretto. In altre parole, 1em è uguale alla dimensione del font dell'elemento
+                    in cui viene utilizzato. Ad esempio, se un elemento ha una dimensione del font di 20px e all'interno
+                    di esso si utilizza 1em, il valore sarà 20px.
+                    <pre><code>:root {
+  font-size: 16px;
+}
+
+div {
+  font-size: 20px;
+}
+
+p {
+  font-size: 1.5em; 
+}
+<b>In questo esempio vediamo em applicato all'elemento paragrafo,farà riferimento però alla dimensione del font del suo genitore diretto quindi il div e NON alla radice <br>
+La dimensione del font del paragrafo sarà quindi 1.5 volte la dimensione del font del div padre, quindi 1.5*20px=30px</b>
+</code></pre>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- Sesto Giorno -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSix">
+            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              Sesto Giorno
+            </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse " aria-labelledby="headingSix"
+            data-bs-parent="#accordionGiorni">
+            <div class="accordion-body">
+              <!-- SESTO GIORNO -->
+              <div class="day-section">
+                <h3 class="countDays"><i class="fas fa-calendar-day"></i> Sesto Giorno</h3>
+                <h4>BOOTSTRAP</h4>
+                <div class="containerParagraph">
+                  <p>Oggi 19 Maggio dopo aver visto le basi di HTML, CSS e JavaScript, abbiamo iniziato a esplorare
+                    Bootstrap, un framework CSS
+                    che semplifica la creazione di layout reattivi e design accattivanti. Bootstrap offre una serie di
+                    classi
+                    predefinite che possiamo utilizzare per stilizzare i nostri elementi HTML in modo rapido ed
+                    efficiente.</p>
+                  </p>
+                </div>
+
+
+
+                <div class="post">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/768px-Bootstrap_logo.svg.png"
+                    alt="Logo HTML" />
+                  <p><b>Bootstrap</b> è un framework front-end open source per lo sviluppo di siti e applicazioni web. È
+                    stato creato da Twitter ed è progettato per semplificare il processo di creazione di layout reattivi
+                    e design accattivanti. <br>
+                    In questa pagina web abbiamo utilizzato l' <b>ACCORDION</b> ovvero il raggruppamento di contenuti in
+                    un wrap che attraverso il click di un bottone aprirà o chiuderà la nostra fisarmonica</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Settimo Giorno -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSeven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+              Settimo Giorno
+            </button>
+          </h2>
+          <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+            data-bs-parent="#accordionGiorni">
+            <div class="accordion-body">
+              <!-- CONTENUTO SETTIMO GIORNO QUI -->
+              <div class="day-section">
+                <h3 class="countDays"><i class="fas fa-calendar-day"></i> Settimo Giorno</h3>
+                <h4>Titolo Argomento</h4>
+                <div class="containerParagraph">
+                  <p>Testo e contenuto del settimo giorno...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+           <!-- PASTE ACCORDION HERE  -->
+
+
+
+           
+      </div> <!-- FINE ACCORDION -->
+
+
+
+</div> <!-- FINE CONTENT -->
+
+
+  </div>     <!-- FINE WRAPPER -->
+
+  
+
+
+  <!--  TEMPLATE BASE GIORNALIERO ACCORDION
+ 
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Quarto Giorno
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+            data-bs-parent="#accordionGiorni">
+            <div class="accordion-body">
+               CONTENUTO DEL GIORNO QUI
+              [Incolla qui 
+            </div>
+          </div>
+        </div>  -->
+
+
+
+  <!-- Form -->
+  <div class="form-section">
+    <h2 class="form-title"><i class="fas fa-envelope-open-text"></i> Iscriviti per ricevere informazioni sul corso
+    </h2>
+    <p class="form-description">Compila il modulo con i tuoi dati per scoprire tutti i dettagli sui nostri percorsi
+      formativi.</p>
+
+    <form id="myForm" class="signup-form" action="#" method="POST">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="nome"><i class="fas fa-user"></i> Nome</label>
+          <input type="text" id="nome" name="nome" placeholder="Inserisci il tuo nome" required />
+        </div>
+        <div class="form-group">
+          <label for="cognome"><i class="fas fa-user"></i> Cognome</label>
+          <input type="text" id="cognome" name="cognome" placeholder="Inserisci il tuo cognome" required />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="email"><i class="fas fa-envelope"></i> Email</label>
+        <input type="email" id="email" name="email" placeholder="La tua email" required />
+      </div>
+
+      <div class="form-group">
+        <label for="corso"><i class="fas fa-laptop-code"></i> Preferenza di Corso</label>
+        <select id="corso" name="corso" required>
+          <option value="">-- Seleziona --</option>
+          <option value="front-end">Front-End</option>
+          <option value="back-end">Back-End</option>
+          <option value="database">Database</option>
+          <option value="designer">Designer</option>
+          <option value="e-commerce">E-Commerce</option>
+        </select>
+      </div>
+
+      <button type="submit"><i class="fas fa-paper-plane"></i> Iscriviti</button>
+    </form>
+  </div>
+
+  <button class="darkMode">☾</button>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>&copy; 2025 Corso Jordan | Programmazione Web</p>
+  </div>
+  </div>
+
+  <script src="/FrontEnd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

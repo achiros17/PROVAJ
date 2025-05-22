@@ -1,0 +1,160 @@
+/* styleHome.css */
+
+/* Reset e font base */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: linear-gradient(to bottom, #f0f2f5, #d9e4ec);
+  color: #2c3e50;
+}
+
+/* Pulsante Dark Mode */
+.darkMode {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  border: none;
+  z-index: 999;
+  transition: background 0.3s;
+}
+.darkMode:hover {
+  background: #333;
+}
+.dark {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+/* Contenitore principale */
+.wrapper {
+  width: auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.navbar ul li  {
+  list-style: none;
+  display: flex;
+  float: left;
+  margin-left: 24px;
+
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.navbar ul li a:hover{
+  background-color: #6ea7e4;
+  color: rgb(189, 7, 7);
+  font-weight: bolder;
+  font-size: large;
+}
+
+.logoJordan {
+  height: 180px;
+  margin-right: 20px;
+
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+/* Titoli della home */
+.containerTitle {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.containerTitle .title {
+  font-size: 2.2rem;
+  color: #2c3e50;
+  margin: 0;
+}
+.containerTitle h2 {
+  font-size: 1.6rem;
+  color: #8c0e0e;
+  margin-top: 10px;
+}
+
+/* Sezione categorie */
+.category-section {
+  padding: 20px 0;
+}
+
+/* Card categorie (riusa day-section) */
+.day-section {
+  border: 1px solid #dfe6e9;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: #cfcdcd;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  transition: background 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 250px;
+
+}
+.day-section:hover {
+  animation: cards 3s infinite;
+}
+@keyframes cards{
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.day-section:hover {
+  background-color: #f9f9f9;
+}
+
+/* Titolo card */
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+/* Immagine card */
+.day-section img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 15px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+  font-size: 0.95rem;
+  color: #7f8c8d;
+}

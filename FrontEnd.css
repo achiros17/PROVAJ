@@ -1,0 +1,237 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: linear-gradient(to bottom, #f0f2f5, #d9e4ec);
+  color: #2c3e50;
+}
+
+/* Pulsante Dark Mode */
+.darkMode {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: #000000;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  border: none;
+  z-index: 999;
+  transition: background 0.3s;
+}
+.darkMode:hover {
+  background: #000000;
+}
+
+.dark {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+.wrapper {
+  width: auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.navbar ul li  {
+  list-style: none;
+  display: flex;
+  float: left;
+  margin-left: 24px;
+
+}
+
+.navbar ul li a {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover{
+  background-color: #6ea7e4;
+  color: rgb(189, 7, 7);
+  font-weight: bolder;
+  font-size: large;
+
+}
+
+
+
+.logoJordan {
+  height: 180px;
+  margin-right: 20px;
+}
+
+.studentName {
+  font-weight: 600;
+  font-size: 1.3rem;
+
+}
+
+.containerTitle {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: 2.2rem;
+  color: #2c3e50;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  color: #8c0e0e;
+  margin-top: 10px;
+}
+
+.day-section {
+  margin-bottom: 40px;
+  border: 1px solid #dfe6e9;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  transition: background 0.3s;
+}
+
+.countDays {
+  font-size: 1.3rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.containerParagraph {
+  margin-bottom: 15px;
+}
+
+.containerList ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.containerList li {
+  margin-bottom: 8px;
+}
+
+.post {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.post img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+pre {
+  background: #f1f1f1;
+  padding: 15px;
+  border-left: 5px solid #8c0e0e;
+  overflow-x: auto;
+  font-family: monospace;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+code {
+  color: #d35400;
+  white-space: pre-wrap;
+}
+
+/* Form */
+.form-section {
+  background: #f8f9fa;
+  padding: 40px;
+  border-radius: 12px;
+  margin-top: 50px;
+}
+
+.form-title {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fff;
+  transition: border 0.3s;
+}
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+button {
+  background-color: #8bccf7;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #6ea7e4;
+  font-weight: bolder;
+  color: black;
+  font-size: x-large;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+  font-size: 0.95rem;
+  color: #7f8c8d;
+}
+
+
+
