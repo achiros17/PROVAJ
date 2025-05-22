@@ -39,6 +39,7 @@ body {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
 }
 
+/* Header */
 .header {
   display: flex;
   align-items: center;
@@ -46,31 +47,72 @@ body {
   flex-wrap: wrap;
   margin-bottom: 40px;
 }
-.navbar ul li  {
-  list-style: none;
-  display: flex;
-  float: left;
-  margin-left: 24px;
 
+.navbar ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px; /* Altezza della sottolineatura */
+  background-color: #c70a0a; /* Colore della sottolineatura */
+  transition: width 0.3s ease; /* Anima l'ampiezza della sottolineatura */
+}
+
+/* Aggiungi effetto hover alla sottolineatura */
+.navbar ul li :hover::after {
+  width: 100%; /* La sottolineatura si espande */
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+  font-weight: bolder;
+}
+
+.navbar ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  list-style: none;
+  margin-left: 24px;
+  position: relative; /* Questo è importante */
 }
 
 .navbar ul li a {
-  font-family: 'Poppins', sans-serif;
   text-decoration: none;
   color: #000000;
   font-size: 1.2rem;
   padding: 10px 20px;
-  border-radius: 8px;
-  transition: background-color 0.3s ease;
+  display: inline-block;
+  transition: color 0.3s ease;
+  position: relative;
 }
 
-.navbar ul li a:hover{
-  background-color: #6ea7e4;
-  color: rgb(189, 7, 7);
-  font-weight: bolder;
-  font-size: large;
-
+/* Pseudo-elemento ::after solo per il link attivo */
+.navbar ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: 6px;
+  left: 20%;
+  width: 0%;
+  background-color: #3a7bd5;
+  transform-origin: center;
 }
+
+/* Al passaggio del mouse, solo quel link viene sottolineato */
+.navbar ul li a:hover::after {
+  width: 60%;
+}
+
+.navbar ul li a:hover {
+  color: #e20404;
+}
+
 
 
 
